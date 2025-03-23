@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        secondary: ["Playfair Display", "serif"],
+      },
+      colors: {
+        extension: "#fde617",
+        white2: "#fefefe",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
