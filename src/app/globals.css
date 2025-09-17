@@ -12,7 +12,9 @@
   position: relative;
   display: inline-block;
 }
-
+* {
+  font-family: comic-sans-ms, sans-serif;
+}
 .underline-animation::after {
   content: '';
   position: absolute;

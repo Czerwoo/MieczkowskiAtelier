@@ -18,8 +18,8 @@ export default function Baner() {
 
   return (
     <div id="home" className="relative w-full h-screen overflow-hidden pt-25">
+      {" "}
       <Slider {...settings}>
-        {/* Slide 1 */}
         <div className="relative w-full h-screen">
           <Image
             src={background1}
@@ -31,26 +31,24 @@ export default function Baner() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
             <div className="mb-8">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
+              <h2 className="text-4xl font-bold mb-2">
                 Twoje włosy w najlepszych rękach
               </h2>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
-                OSIĄGNIJ CEL
-              </h1>
-              <p className="text-sm sm:text-base md:text-lg">
+              <h1 className="text-6xl font-bold mb-4">OSIĄGNIJ CEL</h1>
+              <p className="text-lg">
                 Zadbamy o odpowiednią pielęgnację i stylizację Twoich włosów.
               </p>
             </div>
-            <button className="bg-yellow-500 text-black font-bold py-2 px-4 sm:py-3 sm:px-6 rounded">
+            <button className="bg-yellow-500 text-black font-bold py-2 px-4 rounded">
               ZAREZERWUJ
             </button>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 flex flex-wrap justify-around p-4 bg-black bg-opacity-75 text-white text-xs sm:text-sm md:text-base">
-            <div className="flex items-center mb-2 sm:mb-0">
+          <div className="absolute bottom-0 left-0 right-0 flex justify-around p-4 bg-black bg-opacity-75 text-white">
+            <div className="flex items-center">
               <span className="material-icons mr-2">Lokalizacja</span>
               <p>Łucji 4, 91-491 Łódź</p>
             </div>
-            <div className="flex items-center mb-2 sm:mb-0">
+            <div className="flex items-center">
               <span className="material-icons mr-2">Telefon</span>
               <p>668 310 144</p>
             </div>
@@ -60,8 +58,6 @@ export default function Baner() {
             </div>
           </div>
         </div>
-
-        {/* Slide 2 */}
         <div className="relative w-full h-screen">
           <Image
             src={background2}
@@ -73,28 +69,28 @@ export default function Baner() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
             <div className="mb-8">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
+              <h2 className="text-4xl font-bold mb-2">
                 KAŻDY DETAL TWORZY TWÓJ STYL
               </h2>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
+              <h1 className="text-6xl font-bold mb-4">
                 ZADBAMY WŁAŚNIE O CIEBIE
               </h1>
-              <p className="text-sm sm:text-base md:text-lg">
+              <p className="text-lg">
                 Styl to nie tylko ubranie, ale również fryzura i makijaż.
                 Zadbamy o każdy detal, abyś czuła się wyjątkowo w każdej
                 sytuacji.
               </p>
             </div>
-            <button className="bg-yellow-500 text-black font-bold py-2 px-4 sm:py-3 sm:px-6 rounded">
+            <button className="bg-yellow-500 text-black font-bold py-2 px-4 rounded">
               ZAREZERWUJ
             </button>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 flex flex-wrap justify-around p-4 bg-black bg-opacity-75 text-white text-xs sm:text-sm md:text-base">
-            <div className="flex items-center mb-2 sm:mb-0">
+          <div className="absolute bottom-0 left-0 right-0 flex justify-around p-4 bg-black bg-opacity-75 text-white">
+            <div className="flex items-center">
               <span className="material-icons mr-2">Lokalizacja</span>
               <p>Drewnowska 102, 91-008 Łódź</p>
             </div>
-            <div className="flex items-center mb-2 sm:mb-0">
+            <div className="flex items-center">
               <span className="material-icons mr-2">Telefon</span>
               <p>668 310 144</p>
             </div>
