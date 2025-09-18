@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import realizacja1 from "../../public/img/realizacja1.jpg";
-import realizacja2 from "../../public/img/realizacja2.jpg";
+import realizacja2 from "../../public/img/realizacja4.jpg";
 import realizacja3 from "../../public/img/realizacja3.jpg";
 import realizacja4 from "../../public/img/realizacja5.jpeg";
 

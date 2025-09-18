@@ -55,10 +55,6 @@ export default function Baner() {
               <span className="material-icons mr-2">Telefon</span>
               <p>668 310 144</p>
             </div>
-            <div className="flex items-center">
-              <span className="material-icons mr-2">Godziny otwarcia</span>
-              <p>Poniedziałek - Piątek: 10:00 - 19:00, Sobota 10:00 - 14:00</p>
-            </div>
           </div>
         </div>
 
@@ -98,10 +94,7 @@ export default function Baner() {
               <span className="material-icons mr-2">Telefon</span>
               <p>668 310 144</p>
             </div>
-            <div className="flex items-center">
-              <span className="material-icons mr-2">Godziny otwarcia</span>
-              <p>Poniedziałek - Piątek: 10:00 - 19:00, Sobota 10:00 - 14:00</p>
-            </div>
+            
           </div>
         </div>
 
@@ -136,16 +129,13 @@ export default function Baner() {
           <div className="absolute bottom-0 left-0 right-0 flex flex-wrap justify-around p-4 bg-black bg-opacity-75 text-white text-xs sm:text-sm md:text-base">
             <div className="flex items-center mb-2 sm:mb-0">
               <span className="material-icons mr-2">Lokalizacja</span>
-              <p>Drewnowska 102, 91-008 Łódź</p>
+              <p>Łucji 4, 91-491 Łódź</p>
             </div>
             <div className="flex items-center mb-2 sm:mb-0">
               <span className="material-icons mr-2">Telefon</span>
               <p>668 310 144</p>
             </div>
-            <div className="flex items-center">
-              <span className="material-icons mr-2">Godziny otwarcia</span>
-              <p>Poniedziałek - Piątek: 10:00 - 19:00, Sobota 10:00 - 14:00</p>
-            </div>
+            
           </div>
         </div>
       </Slider>
