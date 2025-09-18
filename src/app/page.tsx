@@ -11,7 +11,7 @@ export default function Home() {
       <Baner />
       <AboutUs />
       <Realizations />
-      {/* <Pricing /> */}
+      <Pricing />
       <Testimonials />
       <Map />
     </main>
