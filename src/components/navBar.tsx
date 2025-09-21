@@ -40,14 +40,7 @@ export default function NavBar() {
             className="navText text-sm lg:text-base xl:text-lg 2xl:text-xl"
             onClick={(event) => scrollToSection("aboutUs", event)}
           >
-            O nas
-          </a>
-          <a
-            href="#"
-            className="navText text-sm lg:text-base xl:text-lg 2xl:text-xl"
-            onClick={(event) => scrollToSection("realizations", event)}
-          >
-            Realizacje
+            Peruki i Toppery
           </a>
         </div>
 
@@ -67,9 +60,9 @@ export default function NavBar() {
           <a
             href="#"
             className="navText text-sm lg:text-base xl:text-lg 2xl:text-xl"
-            onClick={(event) => scrollToSection("pricing", event)}
+            onClick={(event) => scrollToSection("realizations", event)}
           >
-            Usługi
+            Realizacje
           </a>
           <a
             href="#"
